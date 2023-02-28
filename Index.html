@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap configuration-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Stopwatch</title>
+    
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="container"  >
+        <div id="container_tame">
+            <span id="Hour" name="hor" >00</span>:<span id="minutos" name="min" >00</span>:<span id="seconds" name="seg" >00</span>
+        </div>
+        <br/>
+        <div id="container_btn">
+            <button class="btn btn-outline-danger " type="button" name="stp">Stop</button>
+            <button class="btn btn-outline-success "  type="button" name="sta" id="start">Start</button>
+            <button class="btn btn-outline-secondary " type="button" name="brk">Restart</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
